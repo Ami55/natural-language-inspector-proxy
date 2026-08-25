@@ -1,0 +1,6 @@
+{
+  "name": "Entity Explorer & NLP Suite - NER, Cloud NLP & N-Gram Analyzer",
+  "description": "Comprehensive Natural Language Processing suite featuring Google Cloud NLP Entity Explorer with Salience & Sentiment analysis, step-by-step NER pipeline visualizer, interactive N-Gram frequency analyzer, and custom themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
