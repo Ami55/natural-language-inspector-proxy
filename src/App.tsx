@@ -1227,7 +1227,7 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className={cn("max-w-7xl mx-auto px-4 sm:px-6 py-10 border-t mt-12 text-xs flex flex-col sm:flex-row items-center justify-between gap-4", currentTheme.classes.border, currentTheme.classes.textMuted)}>
+      <footer className={cn("max-w-7xl mx-auto px-4 sm:px-6 py-10 border-t mt-12 text-xs flex flex-col items-center gap-4", currentTheme.classes.border, currentTheme.classes.textMuted)}>
         <div className="flex items-center gap-2">
           <Compass className="w-4 h-4 text-indigo-400" />
           <span className={cn("font-semibold", currentTheme.classes.textPrimary)}>Entity Explorer & NLP Visualizer</span>
@@ -1256,6 +1256,9 @@ export default function App() {
             Google Cloud NLP Documentation
           </a>
         </div>
+        <p className="w-full text-center pt-4 border-t border-current/10">
+          © 2026 Natural Language Inspector. Developed by Ami - SEO Girl. All rights reserved.
+        </p>
       </footer>
       {/* How It Works Educational Guide Modal */}
       <HowItWorksModal
