@@ -1257,7 +1257,7 @@ export default function App() {
           </a>
         </div>
         <p className="w-full text-center pt-4 border-t border-current/10">
-          © 2026 Natural Language Inspector. Developed by Ami - SEO Girl. All rights reserved.
+          © 2026 Natural Language Inspector. Developed by <strong>SEO Girl - Ami</strong>. All rights reserved.
         </p>
       </footer>
       {/* How It Works Educational Guide Modal */}
